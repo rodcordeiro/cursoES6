@@ -1,0 +1,26 @@
+{
+  "name": "cursoes6",
+  "version": "1.0.0",
+  "description": "Created for studying the ES6 rockeatseat course.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodcordeiro/cursoES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodcordeiro/cursoES6/issues"
+  },
+  "homepage": "https://github.com/rodcordeiro/cursoES6#readme",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0"
+  }
+}
